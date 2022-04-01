@@ -72,39 +72,33 @@ document.addEventListener('DOMContentLoaded', function(){
   one.addEventListener("mouseenter", function(event){
    two.style.opacity = "30%";
    foo.style.opacity = "30%";
-   document.body.style.backgroundImage ="url('../img/IMG_20220328_145051_318.webp')";
    text.innerText ="Мир меняется. Меняется реклама и технологии её изготовления, которые мы успеваем осваивать, чтобы о вашей компании узнали все.";
   });
   one.addEventListener("mouseleave", function(event){
    two.style.opacity = "";
    foo.style.opacity = "";
-   document.body.style.backgroundImage ="";
    text.innerText ="Изготавливаем красивые надёжные вывески, дорожные знаки, LED-панели, наружную рекламу и многое другое!";
   });
 
   two.addEventListener("mouseenter", function(event){
    one.style.opacity = "30%";
    foo.style.opacity = "30%";
-   document.body.style.backgroundImage ="url('../img/IMG_20220328_145048_338.webp')";
    text.innerText ="Главное в работе для нас — найти удобный, простой и красивый способ решения задачи заказчика.";
   });
   two.addEventListener("mouseleave", function(event){
    one.style.opacity = "";
    foo.style.opacity = "";
-   document.body.style.backgroundImage ="";
    text.innerText ="Изготавливаем красивые надёжные вывески, дорожные знаки, LED-панели, наружную рекламу и многое другое!";
   });
 
   foo.addEventListener("mouseenter", function(event){
    two.style.opacity = "30%";
    one.style.opacity = "30%";
-   document.body.style.backgroundImage ="url('../img/IMG_20220328_145051_318.webp')";
    text.innerText ="Свяжитесь с нами, если вам нужна эффективная наружная реклама.";
   });
   foo.addEventListener("mouseleave", function(event){
    two.style.opacity = "";
    one.style.opacity = "";
-   document.body.style.backgroundImage ="";
    text.innerText ="Изготавливаем красивые надёжные вывески, дорожные знаки, LED-панели, наружную рекламу и многое другое!";
   });
 
