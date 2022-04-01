@@ -17,11 +17,11 @@ body {
 
 .one:hover body,
 .foo:hover body {
-  background-image: url("../img/IMG_20220328_145048_338.webp");
+  background-image: url("../img/IMG 20220328 145048 338.webp");
 }
 
 .three:hover body {
-  background-image: url("../img/IMG_20220328_145051_318.webp");
+  background-image: url("../img/IMG 20220328 145051 318.webp");
 }
 
 h2 {
