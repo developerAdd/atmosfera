@@ -15,15 +15,6 @@ body {
           transition-delay: 0.85s;
 }
 
-.one:hover body,
-.foo:hover body {
-  background-image: url("../img/IMG_20220328_145048_338.webp");
-}
-
-.three:hover body {
-  background-image: url("../img/IMG_20220328_145051_318.webp");
-}
-
 h2 {
   font-family: "Manrope";
   font-style: normal;
